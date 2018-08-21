@@ -3,6 +3,7 @@ layout: post
 title: MathJax Test
 date: 2018-07-30
 categories: test
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
 tags: mathjax 
 
 ---
