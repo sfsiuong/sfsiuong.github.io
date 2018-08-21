@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: '石馥菘的独立博客' # stoney's blog
-description: '昵称悟空，97年生，伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+title: '石馥菘的独立博客' 
+description: '昵称stoney，97年生，伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
 keyword: '石馥菘, 石馥菘的独立博客, 石馥菘的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
-url: 'http://stoney.life' # your host
+url: 'http://stoney.life' 
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -11,6 +11,8 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
+
+  game: 'http://www.4399.com'
 
 # Footer
 footer:
