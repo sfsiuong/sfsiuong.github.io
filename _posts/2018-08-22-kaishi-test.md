@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 测试啊
-date：2018-08-22
-categories :test
-tags: good
+title: a Test
+date: 2018-07-30
+categories: test
+tags: mathjax 
 ---
 
-zhekasdjlfkjsalgdjsa;ldg
-
 asdgasdgasdg
+
+
 
 #lkjalksjglksad
 
