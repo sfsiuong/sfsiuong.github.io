@@ -1,7 +1,7 @@
 ---
 layout: default
-home-title: H2O Theme For Jekyll
-description: 或许是最漂亮的Jekyll主题
+home-title: Fusong's Records of life
+description: 无聊且冗长
 ---
 
 {% include header.html %}
@@ -50,9 +50,9 @@ description: 或许是最漂亮的Jekyll主题
         {% if paginator.total_pages > 1 %}
             {% include pageNav.html %}
         {% endif %}
-
+    
     </div>
-
+    
     <aside class="g-sidebar-wrapper">
         <div class="g-sidebar">
             <section class="author-card">
@@ -75,7 +75,7 @@ description: 或许是最漂亮的Jekyll主题
                 </ul>
                 {% endif %}
             </section>
-
+    
             {% if site.recommend-tags and site.tags.size>0 %}
             <section class="tags-card">
                 {% for tag in site.tags %}
@@ -87,7 +87,7 @@ description: 或许是最漂亮的Jekyll主题
             </section>
             {% endif %}
         </div>
-
+    
         {% if site.search %}
         <div class="search-card">
             <input id="search_input" type="text" placeholder="Search..." autocomplete="off">
@@ -95,7 +95,7 @@ description: 或许是最漂亮的Jekyll主题
             <div class="search_result"></div>
         </div>
         {% endif %}
-
+    
     </aside>
 
 </main>
