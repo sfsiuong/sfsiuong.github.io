@@ -12,11 +12,9 @@ nav:
   home: '/'
   tags: '/tags.html'
 
-  game: 'http://www.4399.com'
-
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
 author: '石馥菘'
