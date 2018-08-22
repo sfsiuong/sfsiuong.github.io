@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: '石馥菘的独立博客' 
-description: '昵称stoney，97年生，伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '石馥菘, 石馥菘的独立博客, 石馥菘的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+description: 'stoney，97年生，很高兴能在这里与你分享我的碎碎念。'
+keyword: '石馥菘, 石馥菘的独立博客, 石馥菘的博客, 博客, '
 url: 'http://stoney.life' 
 
 # if you don't need baseurl, you should leave this value blank.
@@ -20,7 +20,7 @@ footer:
 author: '石馥菘'
 nickname: 'stoney'
 bio: '学生'
-avatar: '/assets/img/profile.jpg'
+avatar: '/assets/img/profile.bmp'
 
 # Search
 search: true
