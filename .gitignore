@@ -2,13 +2,11 @@
 .bundle
 .sass-cache
 _site
-_img/posts/*.jpg
-_img/posts/*.png
+_img
 Gemfile.lock
-.idea/*
+/.idea/
 npm-debug.log
-*.js.map
-maps
+
 
 # OS Generated files #
 ######################
