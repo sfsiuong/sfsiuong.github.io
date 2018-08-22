@@ -1,8 +1,10 @@
-/*eslint-env jquery*/
+window.jQuery = window.$ = require( "jquery" );
+require( "velocity-animate/velocity.js" );
+require( "lazysizes" );
+require( "lazysizes/plugins/unveilhooks/ls.unveilhooks.js" );
 
 // Jquery & Velocity JS included in GULP
 $( document ).ready( function() {
-
     toggleMobileNav();
     ShowHideNav();
     formCheck();
@@ -17,23 +19,29 @@ $( document ).keyup( function( e ) {
 $( window ).resize( function() {
     $( ".header" ).removeClass( "hide-nav" ); // Ensure nav will be shown on resize
     $( ".header__links" ).removeAttr( "style" ); // If mobile nav was collapsed, make sure it's show on DESK
-    $( ".header__overlay" ).remove();
+    $( ".header__overlay" ).remove(); // Remove mobile navigation overlay in case it was opened
 } );
 
-// Toggle Mobile Navigation
+/*-------------------------------------------------------------------------*/
+/* MOBILE NAVIGATION */
+/* -----------------------------------------------------------------------*/
+
 function toggleMobileNav() {
     $( ".header__toggle" ).click( function() {
-
+      if ( !$( ".header__links" ).is( ".velocity-animating" ) ) {
         if ( $( ".header__links" ).hasClass( "js--open" ) ) {
             hideMobileNav();
-        }
-        else {
+        } else {
             openMobileNav();
         }
+      }
     } );
 
-    $( ".header__overlay" ).click( function() {
+    $( "body" ).on( "click", function( e ) {
+
+      if ( e.target.classList.contains( "header__overlay" ) ) {
         hideMobileNav();
+      }
     } );
 }
 
@@ -47,7 +55,7 @@ function openMobileNav() {
             $( ".header__toggle" ).addClass( "--open" );
             $( "body" ).append( "<div class='header__overlay'></div>" );
         },
-        progress: function () {
+        progress: function() {
             $( ".header__overlay" ).addClass( "--open" );
         },
         complete: function() {
@@ -66,7 +74,7 @@ function hideMobileNav() {
         begin: function() {
             $( ".header__toggle" ).removeClass( "--open" );
         },
-        progress: function () {
+        progress: function() {
             $( ".header__overlay" ).removeClass( "--open" );
         },
         complete: function() {
@@ -76,7 +84,10 @@ function hideMobileNav() {
     } );
 }
 
-// SHOW/HIDE NAV
+/*-------------------------------------------------------------------------*/
+/* SHOW/SCROLL NAVIGATION */
+/* -----------------------------------------------------------------------*/
+
 function ShowHideNav() {
     var previousScroll = 0, // previous scroll position
         $header = $( ".header" ), // just storing header in a variable
@@ -86,6 +97,7 @@ function ShowHideNav() {
 
     $( window ).scroll( function() {
         var wW = 1024;
+
         // if window width is more than 1024px start show/hide nav
         if ( $( window ).width() >= wW ) {
             if ( !$header.hasClass( "fixed" ) ) {
@@ -108,7 +120,7 @@ function ShowHideNav() {
                             // scroll down -> hide nav
                             if ( !$header.hasClass( "hide-nav" ) ) {
                                 $header.addClass( "hide-nav" );
-}
+                              }
                         } else {
 
                             // scroll up -> show nav
@@ -117,8 +129,8 @@ function ShowHideNav() {
                             }
                         }
                     }
-                }
-                else {
+                } else {
+
                     // at the top
                     if ( currentScroll <= 0 ) {
                         $header.removeClass( "hide-nav show-nav" );
@@ -132,15 +144,15 @@ function ShowHideNav() {
                 $header.removeClass( "hide-nav" );
             }
             previousScroll = currentScroll;
-        }
-
-        // if window width is less than 1024px fix nav
-        else {
+        } else {
             $header.addClass( "fix-nav" );
         }
     } );
 }
 
+/*-------------------------------------------------------------------------*/
+/* HANDLE MODAL */
+/* -----------------------------------------------------------------------*/
 
 function openModal() {
     $( "body" ).css( "overflow", "hidden" );
@@ -171,7 +183,10 @@ $( ".modal__overlay" ).click( function() {
     removeModal();
 } );
 
-// Contact Form Validation
+/*-------------------------------------------------------------------------*/
+/* FORM VALIDATION */
+/* -----------------------------------------------------------------------*/
+
 function formCheck() {
     $( ".js-submit" ).click( function( e ) {
 
@@ -210,8 +225,8 @@ function formCheck() {
 // Validate if the input is not empty
 function validateRequired( value ) {
     if ( value === "" ) {
-return false;
-}
+      return false;
+    }
     return true;
 }
 
@@ -229,40 +244,55 @@ function addErrorData( element, error ) {
     element.after( "<span class='error-data'>" + error + "</span>" );
 }
 
-// AJAX Form submit
-$( "#contactForm" ).submit( function( e ) {
 
-    e.preventDefault();
+/*-------------------------------------------------------------------------*/
+/* AJAX FORM SUBMIT
+/* Formspree now only supports AJAX for Gold Users
+/* https://github.com/formspree/formspree/pull/173
+/* Uncomment if you want to use AJAX Form submission and you're a gold user
+/* -----------------------------------------------------------------------*/
 
-    var $btn = $( ".js-submit" ),
-        $inputs = $( ".form__input input" ),
-        $textarea = $( ".form__input textarea" ),
-        $name = $( "input#name" ).val();
+// $( "#contactForm" ).submit( function( e ) {
 
-    $.ajax( {
+//     e.preventDefault();
 
-        // Change the email address here:
-        url: "https://formspree.io/jan.czizikow@Fmail.com",
-        method: "POST",
-        data: $( this ).serialize(),
-        dataType: "json",
+//     var $btn = $( ".js-submit" ),
+//         $inputs = $( ".form__input input" ),
+//         $textarea = $( ".form__input textarea" ),
+//         $name = $( "input#name" ).val(),
+//         $url = $( "#contactForm" ).attr( "action" );
 
-        beforeSend: function() {
-            $btn.prop( "disabled", true );
-            $btn.text( "Sending..." );
-        },
-        success: function( data ) {
-            $inputs.val( "" );
-            $textarea.val( "" );
-            $btn.prop( "disabled", false );
-            $btn.text( "Send" );
-            openModal();
-            $( ".modal__body" ).append( "<h1>Thanks " + $name + "!</h1><p>Your message was successfully sent! Will get back to you soon.</p>" );
+//     $.ajax( {
 
-        },
-        error: function( err ) {
-            $( ".modal, .modal__overlay" ).addClass( "--show" );
-            $( ".modal__body" ).append( "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message:</p>" + err );
-        }
-    } );
-} );
+//         url: $url,
+//         method: "POST",
+//         data: $( this ).serialize(),
+//         dataType: "json",
+
+//         beforeSend: function() {
+//             $btn.prop( "disabled", true );
+//             $btn.text( "Sending..." );
+//         },
+//         // eslint-disable-next-line no-unused-vars
+//         success: function( data ) {
+//             $inputs.val( "" );
+//             $textarea.val( "" );
+//             $btn.prop( "disabled", false );
+//             $btn.text( "Send" );
+//             openModal();
+//             $( ".modal__body" ).append(
+//               "<h1>Thanks " +
+//               $name +
+//               "!</h1><p>Your message was successfully sent! Will get back to you soon.</p>"
+//             );
+
+//         },
+//         error: function( err ) {
+//             $( ".modal, .modal__overlay" ).addClass( "--show" );
+//             $( ".modal__body" ).append(
+//               "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message: </p>" +
+//               err
+//             );
+//         }
+//     } );
+// } );

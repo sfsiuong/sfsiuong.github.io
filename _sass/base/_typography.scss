@@ -1,7 +1,7 @@
 // General
 body {
   background-color: $bg-color;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $font-stack;
   font-size: 1rem;
   line-height: 1.5;
   color: $text-color;
@@ -71,12 +71,12 @@ mark {
 }
 
 code {
-  padding: 2px 4px;
+  padding: 0.2em 0.4em;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
   color: $code-text-color;
   background-color: $code-bg-color;
-  border-radius: 0.3rem;
+  border-radius: 3px;
 }
 
 pre {

@@ -1,12 +1,13 @@
 .post-card {
   display: block;
+  position: relative;
   width: 100%;
   min-height: 250px;
   border-radius: 4px;
   overflow: hidden;
   background-color: $bg-color;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  margin-bottom: 5.26316%;
+  margin-bottom: 2.25rem; // don't use % value see more: https://github.com/philipwalton/flexbugs/issues/86
   border-bottom: 0;
   transition: box-shadow .25s ease;
 
@@ -39,6 +40,36 @@
       margin-right: 0;
     }
   }
+
+  &__label {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 2;
+  }
+
+  &__inner {
+    display: block;
+    position: relative;
+    padding: 1.875rem 1.25rem 0.625rem;
+    width: 100%;
+    color: $grey;
+    border-bottom: 0;
+
+    &:focus,
+    &:hover {
+      color: $grey;
+      border-bottom: 0;
+    }
+  }
+
+  &__header {
+    margin-bottom: 0.75rem;
+  }
+
+  &__meta {
+    font-size: 0.875rem;
+  }
 }
 
 .post-card__thumb {
@@ -63,18 +94,5 @@
     width: 100%;
     height: 100%;
     display: block;
-  }
-}
-
-.post-card__inner {
-  padding: 1.875rem 1.25rem 0.625rem;
-  color: $grey;
-}
-
-.post-card__header {
-  margin-bottom: 0.75rem;
-
-  .post-card__meta {
-    font-size: 0.875rem;
   }
 }

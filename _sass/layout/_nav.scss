@@ -59,21 +59,17 @@
   align-items: center;
   height: 3.75em;
   justify-content: space-between;
-
 }
 
 .header__links {
   padding-bottom: .5rem;
-  display: block;
+  display: none;
   position: absolute;
   top: 3.75em;
   left: 0;
   width: 100%;
   height: auto;
   background: $bg-color;
-  &.js--open {
-
-  }
 }
 
 .header__link {
