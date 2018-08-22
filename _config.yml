@@ -48,3 +48,9 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Comments 评论功能
+
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
