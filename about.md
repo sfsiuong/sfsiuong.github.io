@@ -1,13 +1,43 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: "About"
+description: "学苟知本，深固难徙"
+header-img: "img/5.jpg"
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+<center>
+    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
+</center>
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+我是江军祥，武汉大学学生，正在为成为一个优秀的程序员而奋斗。
+
+
+
+
+### 关注：
+
+
+- C++
+- java
+- Python
+- android
+- .Net
+
+
+### 联系
+
+- [博客：whuhan2013.github.io](http://whuhan2013.github.io/)    
+- 邮箱：whuhan2013@163.com     
+- [github](https://github.com/whuhan2013)
+
+
+<center>
+    <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
+</center>
+
+
+
+
+
+
