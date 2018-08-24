@@ -7,17 +7,15 @@ header-img: "img/3.jpg"
 
 
 
-### myList：
+## Latest：
 
+- #### reading
+书单
 
-- [stackoverflow](http://stackoverflow.com/)
+- #### watching
 
-- [github](https://github.com/)
+蚁人2
 
-- [扇贝网](http://www.shanbay.com/)
+- #### listening
 
-- [leetcode](https://leetcode.com/)
-
-- [Quora](https://www.quora.com/)
-
-- [Android官网](https://developer.android.com/develop/index.html)
+谢安琪
