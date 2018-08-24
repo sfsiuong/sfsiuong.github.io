@@ -1,31 +1,31 @@
 # Site settings
 title: Sfsiuong
 header-img: "img/1.jpg"
-tagline: "cn"  
-description: "Stoney|读而立·写而生"  
+tagline: "cn"
+description: "Stoney|读·写"
 baseurl: ""
-url: "http://jjx"  
+url: "http://jjx"
 
 # About/contact
-owner: 
+owner:
   name: " stoney"
   email: stoney0616@126.com
-  bio: "写就是写的报酬"
+  bio: "记录生活"
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
+gavatar: img/favicon.png
 favicon: img/favicon.png
 
-douban_username:  
-twitter_username: 
-github_username: whuhan2013
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+douban_username:
+twitter_username:
+github_username: sfsiuong
+facebook_username:
+weibo_username:
+zhihu_username:
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -39,7 +39,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
@@ -47,16 +47,16 @@ defaults:
       author: "stoney"
       header-img: "img/6.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
+# Comments
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : 
+    short_name :
   disqus :
-      short_name : 
+      short_name :
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

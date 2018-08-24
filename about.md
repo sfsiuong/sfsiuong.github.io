@@ -10,34 +10,21 @@ header-img: "img/5.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-我是江军祥，武汉大学学生，正在为成为一个优秀的程序员而奋斗。
+我是sfsiuong(Stoney)，北京邮电大学本科生，懒散且正在改掉懒散的习惯。
 
 
 
 
-### 关注：
 
-
-- C++
-- java
-- Python
-- android
-- .Net
 
 
 ### 联系
 
-- [博客：whuhan2013.github.io](http://whuhan2013.github.io/)    
-- 邮箱：whuhan2013@163.com     
-- [github](https://github.com/whuhan2013)
+- [博客：stoney.life](http://sfsiuong.github.io/)    
+- 邮箱：stoney0616@126.com     
+- [github](https://github.com/sfsiuong)
 
 
-<center>
+<!-- <center>
     <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
-</center>
-
-
-
-
-
-
+</center> -->
