@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown 简明语法参考
-date: 2015-9-19
+date: 2018-8-25
 categories: blog
 tags: markdown 写作
 description: Markdown 简明语法参考
@@ -13,7 +13,7 @@ description: Markdown 简明语法参考
 
 ## Markdown 概述
 
-Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。 
+Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。
 —— [维基百科](https://zh.wikipedia.org/wiki/Markdown)
 
 Markdown 语法是对纯文本格式的强化，能使文本显示得更清晰、有条理。但它依旧算是简单的文本，很容易修改和扩展，常用于快速写作中。
@@ -38,7 +38,7 @@ Markdown 格式的简洁特性、兼容扩展性颇佳，使之能快速转换�
 * [Byword](http://bywordapp.com/)
 * [Marked 2](http://marked2app.com/)
 * [Ulysses](http://www.ulyssesapp.com/)
-* [Marboo](http://marboo.io/) 
+* [Marboo](http://marboo.io/)
 * [Mou](http://25.io/mou/)
 
 以及支持 Markdown 的优质在线编辑器：
@@ -78,7 +78,7 @@ Markdown 格式的简洁特性、兼容扩展性颇佳，使之能快速转换�
 ## 俺，二级标题  
 ### 我是三级标题  
 #### 人家只是个四级标题……  
-##### 更小的我，五级标题 XD 
+##### 更小的我，五级标题 XD
 ###### Github 支持的最小的可以我（哪里冒出来的）
 ***
 
@@ -93,7 +93,7 @@ Markdown 语法下，换行的方式有：
 
     *斜体* 斜体
     _斜体_
-    
+
     **加粗** 加粗
     __粗体_
 
@@ -131,14 +131,14 @@ Markdown 语法下，换行的方式有：
 无序列表：
 
     Unordered List:
-    
+
     * English
     * Japanese
     * Chinese
     * ……
-    
+
     Unordered List:
-    
+
     - English
     - Japanese
     - Chinese
@@ -157,13 +157,13 @@ Country List：
 有序列表：
 
     Ordered List:
-    
+
     1. Orange
     2. Apple
     3. Banana
 
 My Favorite Fruit List:
-    
+
 1. Orange
 2. Apple
 3. Banana
@@ -171,7 +171,7 @@ My Favorite Fruit List:
 多层级列表：
 
     两都名胜
-    
+
     - 南京
       + 玄武湖
       + 中山陵
@@ -187,9 +187,9 @@ My Favorite Fruit List:
 注：此处的几个符号作用都是一样的，不同层级符号有所区别只为显示美观。日常使用，请每一级的符号一致。
 
 显示效果如下：
-      
+
 两都名胜
-    
+
 - 南京
     + 玄武湖
     + 中山陵
@@ -222,25 +222,25 @@ My Favorite Fruit List:
 或者，你想要引用一首诗、一首歌：
 
     > 五月天《天使》
-    
-    > 像孩子依赖着肩膀 
-    > 像眼泪依赖着脸庞 
-    > 你就像天使一样 
+
+    > 像孩子依赖着肩膀
+    > 像眼泪依赖着脸庞
+    > 你就像天使一样
     > 给我依赖 给我力量  
 
 这儿也需要注意换行：每一行最后换行，添加两个空格符，不然内容会挤压在一块，变成一行。或者行与行之间，空一行。以下例子中，歌词部分输入时虽然都分列开，而实际显示时歌词都连成一句了。
 
-> 五月天《天使》 
-> 
-> 像孩子依赖着肩膀 
-> 像眼泪依赖着脸庞 
-> 你就像天使一样 
-> 给我依赖 给我力量 
+> 五月天《天使》
+>
+> 像孩子依赖着肩膀
+> 像眼泪依赖着脸庞
+> 你就像天使一样
+> 给我依赖 给我力量
 
 每句歌词的行尾空两格之后，效果是这样的：
 
-> 五月天《天使》 
-> 
+> 五月天《天使》
+>
 > 像孩子依赖着肩膀  
 > 像眼泪依赖着脸庞  
 > 你就像天使一样  
@@ -273,18 +273,18 @@ My Favorite Fruit List:
 如果行尾不空格呢有没其它解决方法呢？如果是这样——
 
     风吹柳絮
-    
+
     《麦兜当当伴我心》插曲
-    
+
     风吹柳絮 茫茫难聚  
     随着风吹 飘来飘去  
     我若能够携你随风去  
-    
+
     我愿像一块扣肉  
     我愿像一块扣肉  
     我愿像一块扣肉  
     扣住你梅菜扣住你手  
-    
+
     我愿像一块扣肉  
     我愿像一块扣肉  
     我是你一块扣肉  
@@ -335,7 +335,7 @@ My Favorite Fruit List:
 
 至于网址链接的基本格式，应该是这样：
 
-    [Link Name](Link) 
+    [Link Name](Link)
 
 构成为：
 
@@ -355,7 +355,7 @@ My Favorite Fruit List:
 内容描述后添加定义链接（以数字/英文/符号为主），在文字段落外关联具体网址，实现可跳转效果。
 
     [Click Google Search][Tags]
-    
+
     [Tags]: http://www.google.com "Google"
 
 显示效果如下：
@@ -443,7 +443,7 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 范例语法如下：
 
     [Line](#A)
-    
+
     <a name="A"></a>
 
 [Line](#A)
@@ -465,7 +465,7 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 
 图床是第三方服务托管个人上传图片，并提供图片外链，让我们在写博客文章时使用的方式。
 
-常用图床： 
+常用图床：
 
 * [七牛云存储](http://www.qiniu.com/)
 * [Imgur](http://imgur.com/)
@@ -480,18 +480,18 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
     <center>
         <img src="http://dreamofbook.qiniudn.com/Zero.png">
     </center>
-    
+
     OR
-    
+
     <figure>
         <img src="http://xxx.jpg">
-    </figure> 
+    </figure>
 
 效果如下：
 
 <figure>
 <img src="http://dreamofbook.qiniudn.com/Zero.png">
-</figure> 
+</figure>
 
 固定图片宽度/高度：
 
@@ -558,7 +558,7 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
         <a href="{{ site.url }}/images/yyy.jpg"><img src="{{ site.url }}/images/ yyy.jpg"></a>
     </figure>
 
-**上面的方法在github中可以，在jekelly中显示不出来，正确方法如下** 
+**上面的方法在github中可以，在jekelly中显示不出来，正确方法如下**
 
 ```
 
@@ -589,10 +589,3 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 5. [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
 6. [Markdown 写作浅谈 - 阳志平的网志](http://www.yangzhiping.com/tech/r-markdown-knitr.html).
 7. [原文链接](http://azeril.me/blog/Markdown-Syntax.html)
-
-
-
-
-
-
-
