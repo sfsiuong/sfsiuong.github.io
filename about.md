@@ -6,7 +6,11 @@ header-img: "img/5.jpg"
 ---
 
 
-我是sfsiuong(Stoney)，北京邮电大学学生。
+<center>
+    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
+</center>
+
+我是江军祥，武汉大学学生，正在为成为一个优秀的程序员而奋斗。
 
 
 
@@ -23,9 +27,9 @@ header-img: "img/5.jpg"
 
 ### 联系
 
-- [博客：stoney.life](http://stoney.life)   
-- 邮箱：stoney0616@126.com     
-- [github](https://github.com/sfsiuong)
+- [博客：whuhan2013.github.io](http://whuhan2013.github.io/)    
+- 邮箱：whuhan2013@163.com     
+- [github](https://github.com/whuhan2013)
 
 
 <center>
