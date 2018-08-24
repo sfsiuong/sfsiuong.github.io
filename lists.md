@@ -10,12 +10,10 @@ header-img: "img/3.jpg"
 ## Latest：
 
 - #### reading
-书单
+  - 书单
 
 - #### watching
-
-蚁人2
+  -  shuf
 
 - #### listening
-
-谢安琪
+  - 谢安琪
