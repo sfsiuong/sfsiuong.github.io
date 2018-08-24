@@ -7,10 +7,8 @@ header-img: "img/3.jpg"
 
 
 <center>
-    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
+    <p><img src="img/black.jpg" align="center"></p>
 </center>
-
-
 ### 我的贝壳：
 
 
