@@ -6,9 +6,7 @@ header-img: "img/5.jpg"
 ---
 
 
-<center>
-    <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
-</center>
+
 
 我是sfsiuong(Stoney)，北京邮电大学本科生，懒散且正在改掉懒散的习惯。
 

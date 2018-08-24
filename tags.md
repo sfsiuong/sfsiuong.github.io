@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "我的航海志"  
+description: "标签"  
 header-img: "img/2.jpg"  
 ---
 
@@ -12,7 +12,7 @@ header-img: "img/2.jpg"
 3. 相关的文章会「唰」地一声跳到页面顶端
 4. 马上试试？
 
-## 我的航海志
+## 我的标签
 
 
 <div id='tag_cloud'>
@@ -33,7 +33,7 @@ header-img: "img/2.jpg"
 {% endfor %}
 </ul>
 
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},

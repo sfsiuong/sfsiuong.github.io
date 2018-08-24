@@ -1,15 +1,13 @@
 ---
 layout: page
-title: "Shell"
-description: "而真理的海洋才刚刚展现在我面前 "
+title: "List"
+description: "生活倾向 "
 header-img: "img/3.jpg"
 ---
 
 
-<center>
-    <p><img src="img/black.jpg" align="center"></p>
-</center>
-### 我的贝壳：
+
+### myList：
 
 
 - [stackoverflow](http://stackoverflow.com/)
@@ -22,11 +20,4 @@ header-img: "img/3.jpg"
 
 - [Quora](https://www.quora.com/)
 
-- [Android官网](https://developer.android.com/develop/index.html) 
-
-
-
-
-
-
-
+- [Android官网](https://developer.android.com/develop/index.html)
