@@ -50,13 +50,13 @@ tags: 健身
 
   #### 拉伸
 
-  ![](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch1.jpg)
+  ![](img\gym\legstretch1.jpg)
 
-  ![](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch2.jpg)
+  ![](img\gym\legstretch2.jpg)
 
-  ![legstretch3](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch3.jpg)
+  ![](img\gym\legstretch3.jpg)
 
-  ![legstretch4](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch4.jpg)
+  ![](img\gym\legstretch4.jpg)
 
 - ### 第二课
 
