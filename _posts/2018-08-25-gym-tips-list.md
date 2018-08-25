@@ -1,0 +1,67 @@
+---
+layout: post
+title: 健身清单
+date: 2018-8-24
+tags: 健身
+---
+
+# 健身清单
+
+- ### 第一课（腿部肌肉+臀部肌肉练习）
+
+  #### 练习
+
+  1. ##### 深蹲：
+
+     - 杠铃放置位于斜方肌（肉最多的地方）；
+
+     - 腰背要挺直，核心部位收紧；
+
+     - 做动作时，想象膝盖朝着脚尖的方向移动（避免外八与内八）；
+
+     - 杠铃在运动中应该保持直上直下；
+
+     - 下蹲极限为大腿与地面平行；
+
+  2. ##### 腿举
+
+     - 膝盖对准脚尖，不能外翻与内扣；
+     - 举到顶时腿不要伸直，对膝盖予以保护；
+
+  3. ##### 箭步走
+
+     - 跨出时，前腿大腿与地面平行，呈90°；
+     - 后退将近90°；
+     - 上半身挺直；
+     - 不要过急，先跨出，后下蹲。
+
+  4. ##### 坐姿腿弯举
+
+     - 身体背后紧靠椅子，如果不能紧靠就调节座椅；
+
+  5. ##### 立式蹬腿
+
+     - 躯干前部（胸或腹（依不同器材而定））靠紧器材；
+     - 上身挺直；
+
+  6. ##### 坐姿腿外展
+
+  7. ##### 坐姿腿内聚
+
+  #### 拉伸
+
+  ![](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch1.jpg)
+
+  ![](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch2.jpg)
+
+  ![legstretch3](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch3.jpg)
+
+  ![legstretch4](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\gym\legstretch4.jpg)
+
+- ### 第二课
+
+- ### 第三课
+
+- ### 第四课
+
+- ### 第五课
