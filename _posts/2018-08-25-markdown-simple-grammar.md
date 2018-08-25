@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Markdown 简明语法参考
-date: 2018-8-25
+date: 2018-8-23
 categories: blog
-tags: markdown 写作
+tags: markdown 教程
 description: Markdown 简明语法参考
 ---
 
@@ -93,7 +93,7 @@ Markdown 语法下，换行的方式有：
 
     *斜体* 斜体
     _斜体_
-
+    
     **加粗** 加粗
     __粗体_
 
@@ -131,14 +131,14 @@ Markdown 语法下，换行的方式有：
 无序列表：
 
     Unordered List:
-
+    
     * English
     * Japanese
     * Chinese
     * ……
-
+    
     Unordered List:
-
+    
     - English
     - Japanese
     - Chinese
@@ -157,7 +157,7 @@ Country List：
 有序列表：
 
     Ordered List:
-
+    
     1. Orange
     2. Apple
     3. Banana
@@ -171,7 +171,7 @@ My Favorite Fruit List:
 多层级列表：
 
     两都名胜
-
+    
     - 南京
       + 玄武湖
       + 中山陵
@@ -222,7 +222,7 @@ My Favorite Fruit List:
 或者，你想要引用一首诗、一首歌：
 
     > 五月天《天使》
-
+    
     > 像孩子依赖着肩膀
     > 像眼泪依赖着脸庞
     > 你就像天使一样
@@ -273,18 +273,18 @@ My Favorite Fruit List:
 如果行尾不空格呢有没其它解决方法呢？如果是这样——
 
     风吹柳絮
-
+    
     《麦兜当当伴我心》插曲
-
+    
     风吹柳絮 茫茫难聚  
     随着风吹 飘来飘去  
     我若能够携你随风去  
-
+    
     我愿像一块扣肉  
     我愿像一块扣肉  
     我愿像一块扣肉  
     扣住你梅菜扣住你手  
-
+    
     我愿像一块扣肉  
     我愿像一块扣肉  
     我是你一块扣肉  
@@ -355,7 +355,7 @@ My Favorite Fruit List:
 内容描述后添加定义链接（以数字/英文/符号为主），在文字段落外关联具体网址，实现可跳转效果。
 
     [Click Google Search][Tags]
-
+    
     [Tags]: http://www.google.com "Google"
 
 显示效果如下：
@@ -443,7 +443,7 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 范例语法如下：
 
     [Line](#A)
-
+    
     <a name="A"></a>
 
 [Line](#A)
@@ -480,9 +480,9 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
     <center>
         <img src="http://dreamofbook.qiniudn.com/Zero.png">
     </center>
-
+    
     OR
-
+    
     <figure>
         <img src="http://xxx.jpg">
     </figure>
