@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "List"
-description: "生活倾向 "
+description: "My lifestyle"
 header-img: "img/3.jpg"
 ---
 
@@ -10,10 +10,10 @@ header-img: "img/3.jpg"
 ## Latest：
 
 - #### reading
-  - 书单
+  - ...
 
 - #### watching
-  -  shuf
+  - 一周看了三遍蚁人3 :-）
 
 - #### listening
-  - 谢安琪
+  - ...

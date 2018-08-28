@@ -7,9 +7,9 @@ tags: 健身
 
 # 健身清单
 
-- ### 第一课（腿部肌肉+臀部肌肉练习）
+### 第一课（腿部肌肉+臀部肌肉练习）
 
-  #### 练习
+#### 练习
 
   1. ##### 深蹲：
 
@@ -50,18 +50,30 @@ tags: 健身
 
   #### 拉伸
 
-  ![](/img/gym/legstretch1.jpg)
+  <center>
+      <img src="/img/gym/legstretch1.jpg">
+      <p>
+          拉伸
+      </p>
+  </center>
 
-  ![](/img/gym/legstretch2.jpg)
+  <center>
+      <img src="/img/gym/legstretch2.jpg">
+      <p>
+          拉伸2
+      </p>
+  </center>
 
-  ![](/img/gym/legstretch3.jpg)
+  <center>
+      <img src="/img/gym/legstretch3.jpg">
+      <p>
+          拉伸3
+      </p>
+  </center>
 
-  ![](/img/gym/legstretch4.jpg)
-
-- ### 第二课
-
-- ### 第三课
-
-- ### 第四课
-
-- ### 第五课
+  <center>
+      <img src="/img/gym/legstretch4.jpg">
+      <p>
+          拉伸4
+      </p>
+  </center>
