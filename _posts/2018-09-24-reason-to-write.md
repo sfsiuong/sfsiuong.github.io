@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 为什么我要写
+title: Markdown 简明语法参考
 date:2018-9-24
 categories: blog
 tags: 随笔
