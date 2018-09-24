@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Markdown 简明语法参考
-date:2018-9-24
+date: 2018-8-25
 categories: blog
-tags: 随笔
-description: 无所事事
+tags: markdown 教程
+description: Markdown 简明语法参考
 ---
 
 #  中秋夜
