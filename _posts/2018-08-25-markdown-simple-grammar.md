@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Markdown 简明语法参考
-date: 2018-8-25
+title: 中秋短记——为什么我要写个人博客
+date: 2018-9-24
 categories: blog
-tags: markdown 教程
-description: Markdown 简明语法参考
+tags: 随笔
+description: 中秋短记
 ---
 
 
