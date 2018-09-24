@@ -18,11 +18,11 @@ header-img: "img/5.jpg"
 
 ### 联系
 
-- [博客：stoney.life](http://sfsiuong.github.io/)    
+- 我的博客：[stoney.life](http://sfsiuong.github.io/)    
 - 我的邮箱：stoney0616@126.com     
-- [github：sfsiuong](https://github.com/sfsiuong)
-
+- 我的github：[sfsiuong](https://github.com/sfsiuong)
 
 <!-- <center>
+
     <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
 </center> -->
