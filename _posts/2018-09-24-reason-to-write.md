@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 为什么我要写这个博客
+title: 为什么我要写
 date:2018-9-24
 categories: blog
 tags: 随笔
