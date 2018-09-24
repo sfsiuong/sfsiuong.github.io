@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AboutMe"
-description: "学苟知本，深固难徙"
+description: "Nailed it!"
 header-img: "img/5.jpg"
 ---
 
