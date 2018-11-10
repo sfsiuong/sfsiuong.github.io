@@ -41,7 +41,7 @@ tags: 笔记 操作系统
 
 开始实现这个浏览器
 
-```java
+```
 void WebExploerer()
 {
     char URL[] = "http....";
