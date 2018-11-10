@@ -64,3 +64,18 @@ void Show(char *p){...};
 [![1541746833594.png](https://i.postimg.cc/J4dN3KWw/1541746833594.png)](https://postimg.cc/nCB9p4zT)
 
 两个线程的样子：两个tcb、两个栈、切换的pc在栈内
+
+```java
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if(true)//局部
+		{
+			int x=10;
+			System.out.println("x="+x);
+		}
+		int x=100;//全局
+		System.out.println("x="+x);
+	}
+}
+```
+
