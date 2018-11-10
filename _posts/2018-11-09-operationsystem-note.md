@@ -61,8 +61,6 @@ void Show(char *p){...};
 
 解决方法 用两个栈分别用于两个进程
 
-![1541746833594](C:\Users\sfsiu\Documents\GitHub\sfsiuong.github.io\img\1541746833594.png)
-
-
+[![1541746833594.png](https://i.postimg.cc/J4dN3KWw/1541746833594.png)](https://postimg.cc/nCB9p4zT)
 
 两个线程的样子：两个tcb、两个栈、切换的pc在栈内
