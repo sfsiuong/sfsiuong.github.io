@@ -4,9 +4,7 @@ title: "Tags"
 description: "标签"  
 header-img: "img/2.jpg"  
 ---
-
-
-## 我的标签
+# 我的标签
 
 
 <div id='tag_cloud'>
