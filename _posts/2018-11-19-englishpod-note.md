@@ -18,3 +18,7 @@ tags: 英语 Englishpod
 | nuts       | 疯了         | Are you nuts?       |
 | have a fit | 非常生气     | She had a fit on me |
 
+
+
+- [ ] fwlwkefjlk
+- [ ] dwdw
